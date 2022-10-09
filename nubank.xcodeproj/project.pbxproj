@@ -15,6 +15,7 @@
 		AD036E2928F3402900F8E1C2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD036E2828F3402900F8E1C2 /* HomeViewController.swift */; };
 		AD036E2B28F3403D00F8E1C2 /* BankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD036E2A28F3403D00F8E1C2 /* BankViewController.swift */; };
 		AD036E2D28F3404900F8E1C2 /* ShoppingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD036E2C28F3404900F8E1C2 /* ShoppingViewController.swift */; };
+		AD036E3028F34DCD00F8E1C2 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD036E2F28F34DCD00F8E1C2 /* Colors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		AD036E2828F3402900F8E1C2 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		AD036E2A28F3403D00F8E1C2 /* BankViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankViewController.swift; sourceTree = "<group>"; };
 		AD036E2C28F3404900F8E1C2 /* ShoppingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingViewController.swift; sourceTree = "<group>"; };
+		AD036E2F28F34DCD00F8E1C2 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 		AD036E1228F339F700F8E1C2 /* nubank */ = {
 			isa = PBXGroup;
 			children = (
+				AD036E2E28F34DC400F8E1C2 /* Helpers */,
 				AD036E2728F33FEC00F8E1C2 /* Controllers */,
 				AD036E1328F339F700F8E1C2 /* AppDelegate.swift */,
 				AD036E1528F339F700F8E1C2 /* SceneDelegate.swift */,
@@ -79,6 +82,14 @@
 				AD036E2C28F3404900F8E1C2 /* ShoppingViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AD036E2E28F34DC400F8E1C2 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				AD036E2F28F34DCD00F8E1C2 /* Colors.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +164,7 @@
 			files = (
 				AD036E1828F339F700F8E1C2 /* MainTabbarController.swift in Sources */,
 				AD036E1428F339F700F8E1C2 /* AppDelegate.swift in Sources */,
+				AD036E3028F34DCD00F8E1C2 /* Colors.swift in Sources */,
 				AD036E1628F339F700F8E1C2 /* SceneDelegate.swift in Sources */,
 				AD036E2B28F3403D00F8E1C2 /* BankViewController.swift in Sources */,
 				AD036E2D28F3404900F8E1C2 /* ShoppingViewController.swift in Sources */,

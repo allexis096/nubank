@@ -24,9 +24,11 @@ class MainTabbarController: UITabBarController {
         
         setViewControllers([homeVC, bankVC, shoppingVC], animated: true)
         
-        tabBar.tintColor = UIColor(red: 130/255, green: 10/255, blue: 209/255, alpha: 1)
-        tabBar.layer.borderWidth = 1
-        tabBar.layer.borderColor = UIColor(red: 211/255, green: 217/255, blue: 227/255, alpha: 1).cgColor
+        tabBar.tintColor = Colors.purple
+        
+        let view = UIView(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: 1))
+        view.backgroundColor = Colors.gray
+        tabBar.addSubview(view)
     }
 }
 
